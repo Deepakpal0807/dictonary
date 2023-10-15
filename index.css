@@ -1,0 +1,133 @@
+*{
+    margin: 0;padding: 0;
+    /* background: linear-gradient(#9dcfe4, #050403); */
+}
+body{
+    background: linear-gradient(#9dcfe4, #050403);
+}
+.main-container{
+    /* position: relative; */
+    /* z-index: 1; */
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 50px;
+    /* overflow: hidden; */
+    width: 500px;
+    border: 2px solid black;
+    /* height: 600px; */
+    height: 1000px;
+    display: flex;
+    flex-direction: column;
+    /* background: linear-gradient(#f69d3c, #3f87a6); */
+    background: linear-gradient(#3f87a6, #f69d3c);
+}
+@media (max-width:450px) {
+    .main-container{
+        width: 95vw;
+        margin-top: 0;
+    }
+    
+}
+.first{
+    opacity: 0;
+    position: absolute;
+}
+.search1 .search-box{
+     width: 500px;
+
+}
+.search1{
+    position: fixed;
+    top: 100px;
+    margin: auto;
+    left: 32vw;
+}
+.upperbox{
+    /* border: 2px solid red; */
+    height: 50vh;
+    
+
+}
+.search-box{
+     display: flex;
+     justify-content: space-evenly;
+     margin: 20px 0px ;
+     padding: 0px 20px;
+}
+.search-icon{
+    width: 45px;
+
+    border-radius: 50%;
+}
+
+.upperbox .search{
+    /* border: 2px solid black; */
+    border-radius: 30px;
+    width: 80%;
+    height: 40px;
+    margin: auto;
+    padding: 0px 10px;
+    font-size: 20px;
+}
+.serach-button{
+    border-radius: 50%;
+}
+.part{
+    font-size: 20px;
+    margin-top: -15px;
+    font: italic;
+}
+.value{
+    /* border: 2px solid black; */
+    margin:10px 0px;
+    margin-top: 10px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-around; */
+    padding: 0px 20px;
+}
+.value h3{
+ font-size: 40px;
+
+ /* padding: 0px 30px; */
+}
+.value p{
+    margin-top: 10px;
+    /* padding: 0px 20px; */
+    text-align: left;
+    font-size: 25px;
+}
+.def{
+    /* border: 2px solid red; */
+    display: inline-block;
+  
+}
+.btn{
+    margin: 0px 5px 5px 2px;
+}
+.lowerbox{
+    /* border: 2px solid red; */
+    /* flex: 1; */
+}
+.error img{
+
+    width: 80%;
+    padding: 10%;
+    margin-left: 40px;
+    border-radius: 50%;
+}
+.error{
+    width: 100%;
+    align-items: center;
+}
+.error h2{
+    margin: 0px 20px ;
+    text-align: center;
+    font-size: 40px;
+    text-shadow: 1px 1px 1px;
+}
+.errr{
+    position: absolute;
+    opacity: 0;
+}
