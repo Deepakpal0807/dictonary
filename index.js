@@ -38,6 +38,7 @@ search.addEventListener("keydown",(event)=>{
                 // let def = document.querySelector(".noun-def");
                 // def.innerHTML = defination;
                 // if (meanings.length >= 2) {
+                    console.log(meanings);
                   
                     for(let i=0;i<meanings.length;i++){
                     //    console.log(meanings[i]);

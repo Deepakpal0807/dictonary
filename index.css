@@ -2,8 +2,10 @@
     margin: 0;padding: 0;
     /* background: linear-gradient(#9dcfe4, #050403); */
 }
-body{
-    background: linear-gradient(#9dcfe4, #050403);
+.body{
+    /* background: linear-gradient(#9dcfe4, #d1c3b5); */
+    background-color: #9dcfe4;
+    height: 40vh;
 }
 .main-container{
     /* position: relative; */
@@ -15,7 +17,7 @@ body{
     width: 500px;
     border: 2px solid black;
     /* height: 600px; */
-    height: 1000px;
+    /* height: 1000px; */
     display: flex;
     flex-direction: column;
     /* background: linear-gradient(#f69d3c, #3f87a6); */
@@ -24,7 +26,7 @@ body{
 @media (max-width:450px) {
     .main-container{
         width: 95vw;
-        margin-top: 0;
+        margin-top: 50px;
     }
     
 }
@@ -44,7 +46,9 @@ body{
 }
 .upperbox{
     /* border: 2px solid red; */
-    height: 50vh;
+    /* height: 120vh; */
+    /* overflow:visible;
+    scroll-behavior: auto; */
     
 
 }
@@ -81,7 +85,7 @@ body{
     /* border: 2px solid black; */
     margin:10px 0px;
     margin-top: 10px;
-    height: 500px;
+    /* height: 500px; */
     display: flex;
     flex-direction: column;
     /* justify-content: space-around; */
