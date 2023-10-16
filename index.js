@@ -207,8 +207,10 @@ icon.addEventListener("click", () => {
             // console.log(meanings.length);
         })
         .catch((error) => {
-            console.log("Armaan fulsingh");
-            console.log(error);
+            let name = document.body.querySelector(".value");
+            name.classList.add("first");
+                 let errr=document.body.querySelector(".error");
+                 errr.classList.remove("errr");
         })
 
 
